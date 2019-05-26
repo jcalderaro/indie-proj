@@ -274,7 +274,8 @@ p {
   background: #c392ff;
   color: #000000;
 }
-
-body {background-color: whitesmoke;}
 /* Done */
 /* Done */
+body {
+  background-color: whitesmoke;
+}
