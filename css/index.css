@@ -278,4 +278,9 @@ p {
 /* Done */
 body {
   background-color: whitesmoke;
+  max-width: 880px;
+}
+
+.home {
+  overflow: auto;
 }
