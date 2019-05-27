@@ -231,6 +231,7 @@ p {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   flex-direction: column;
+  
   display: flex;
   justify-content: space-between;
 }
