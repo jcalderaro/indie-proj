@@ -165,7 +165,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .container {
     width: 90%;
     margin: 0 5%;
@@ -177,7 +177,7 @@ p {
   height: 90px;
   background: #c392ff;
   border: 10px solid #000000;
-  position: fixed;
+  position: sticky;
 }
 .main-navigation .nav-container {
   height: 100%;
@@ -185,14 +185,14 @@ p {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .main-navigation .nav-container {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 10px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .main-navigation .nav-container .logo-heading {
     font-size: 3rem;
   }
@@ -202,7 +202,7 @@ p {
   display: flex;
   justify-content: space-evenly;
 }
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .main-navigation .nav-container .nav {
     width: 100%;
     justify-content: space-around;
@@ -233,7 +233,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .content-pick {
     flex-wrap: wrap;
   }
@@ -242,7 +242,7 @@ p {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .content-pick .destination {
     width: 80%;
     margin: 0 auto 30px;
@@ -265,7 +265,7 @@ p {
   cursor: pointer;
   font-size: 1.8rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 880px) {
   .content-pick .destination .btn {
     width: 100%;
   }
@@ -278,10 +278,4 @@ p {
 /* Done */
 body {
   background-color: whitesmoke;
-  
-  max-width: 880px;
-}
-
-.home {
-  overflow: auto;
 }
